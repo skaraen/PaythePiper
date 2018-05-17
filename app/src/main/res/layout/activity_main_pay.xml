@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/red_diamond_detail"
+    android:orientation="vertical"
+    tools:context=".MainPay"
+    android:id="@+id/background"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="211dp"
+            android:layout_height="71dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:gravity="center"
+            android:text="@string/to_be_paid"
+            android:textColor="#e2b935"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="28dp" />
+
+        <TextView
+            android:id="@+id/due_amount"
+            android:layout_width="142dp"
+            android:layout_height="80dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="11dp"
+            android:layout_marginRight="11dp"
+            android:gravity="center_vertical|end"
+            android:textColor="#e2b935"
+            android:textSize="50dp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="148dp"
+            android:layout_height="58dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:gravity="center"
+            android:text="@string/amount_paid"
+            android:textColor="#e2b935"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="140dp" />
+
+        <TextView
+            android:id="@+id/amount_paid"
+            android:layout_width="142dp"
+            android:layout_height="80dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:gravity="center_vertical|end"
+            android:text="0"
+            android:textColor="#e2b935"
+            android:textSize="50dp"
+            android:textStyle="bold|italic"
+            tools:layout_editor_absoluteX="183dp"
+            tools:layout_editor_absoluteY="124dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="140dp"
+            android:layout_height="39dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/pay_head"
+            android:textColor="#e2b935"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            tools:layout_editor_absoluteX="255dp"
+            tools:layout_editor_absoluteY="252dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/button_one"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="80dp"
+            android:background="@mipmap/ic_launcher_round"
+            android:text="@string/coin_one"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:textStyle="bold|italic"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="303dp" />
+
+
+        <Button
+            android:id="@+id/button_two"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="80dp"
+            android:layout_marginRight="80dp"
+            android:background="@mipmap/ic_launcher_round"
+            android:text="@string/coin_two"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:textStyle="bold|italic"
+            tools:layout_editor_absoluteX="244dp"
+            tools:layout_editor_absoluteY="303dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/button_five"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="80dp"
+            android:background="@mipmap/ic_launcher_round"
+            android:text="@string/coin_five"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:textStyle="bold|italic"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="411dp" />
+
+        <Button
+            android:id="@+id/button_ten"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="80dp"
+            android:layout_marginRight="80dp"
+            android:background="@mipmap/ic_launcher_round"
+            android:text="@string/coin_ten"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:textStyle="bold|italic"
+            tools:layout_editor_absoluteX="236dp"
+            tools:layout_editor_absoluteY="411dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/button_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="#000000"
+            android:text="@string/reset"
+            android:textColor="#e2b935"
+            android:textSize="16dp"
+            android:textStyle="bold|italic"
+            tools:layout_editor_absoluteX="296dp"
+            tools:layout_editor_absoluteY="503dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

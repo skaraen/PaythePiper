@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Pay the Piper</string>
+    <string name="title_up">Pay the</string>
+    <string name="title_down">Piper</string>
+    <string name="play">START</string>
+    <string name="to_be_paid">AMOUNT TO BE PAID  Rs.</string>
+    <string name="amount_paid">AMOUNT PAID  Rs.</string>
+    <string name="pay_head">PAY USING</string>
+    <string name="coin_one">Re. 1</string>
+    <string name="coin_two">Rs. 2</string>
+    <string name="coin_five">Rs. 5</string>
+    <string name="coin_ten">Rs. 10</string>
+    <string name="reset">RESET</string>
+    <string name="caption">Lets P(l)ay !</string>
+</resources>
